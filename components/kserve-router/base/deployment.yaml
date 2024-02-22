@@ -23,7 +23,7 @@ spec:
         app.kubernetes.io/instance: kserve-router
     spec:
       containers:
-      - image: quay.io/redhat-user-workloads/rhoai-tenant/kserve-router/kserve-router@sha256:1ae29261ed598e0ca2f9f2930b523e006ea8f4fae95497b9956df9843baee46c
+      - image: quay.io/redhat-user-workloads/rhoai-tenant/kserve-router/kserve-router@sha256:472676777e277681ef226bdec0ab400c1d6489f9f414df4b57f58cdc74def025
         imagePullPolicy: Always
         name: container-image
         ports:
