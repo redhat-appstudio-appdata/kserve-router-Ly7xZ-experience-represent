@@ -23,7 +23,7 @@ spec:
         app.kubernetes.io/instance: kserve-router-28
     spec:
       containers:
-      - image: quay.io/modh/kserve-router@sha256:35f3794e29a4aa3c7704a09e74e96240e627c248e7c766d9e5f80721157c3ad6
+      - image: quay.io/modh/kserve-router@sha256:3f5d86c46f22de97c02f0f1faa4380d94f310c4bb271e888fa0e2bfb0525e4a9
         imagePullPolicy: Always
         name: container-image
         ports:
